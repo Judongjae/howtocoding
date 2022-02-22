@@ -42,4 +42,3 @@ export const signup = async (req, res) => {
       .send({ result: "failure", msg: "DB 정보 조회 실패" });
   }
 };
-//
